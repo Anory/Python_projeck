@@ -35,6 +35,7 @@ def pow_num_use_lambda(num_list):
     :return:原来列表中每一项的立方
     """
     # map方法相当于遍历接收到的列表将列表中的每一项赋值给 n 由lambda函数进行计算，最后返回一个map对象
+    # 将函数作用在序列的每个元素上，然后创建由每次函数应用组成的返回值map对象
     return map(lambda n: n * n * n, num_list)  # lambda函数相当于上面写的 f 方法
 
 

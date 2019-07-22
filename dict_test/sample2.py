@@ -14,6 +14,7 @@ print(name)
 sex = employee["sex"]
 print(sex)
 
+
 # get 方法可以为不存在的 key赋予默认的value
 print(employee.get("name"))
 print(employee.get("dept", "其他部门"))
