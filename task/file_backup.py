@@ -54,7 +54,7 @@ class BackupFile(object):
 
 
 if __name__ == "__main__":
-    # 获取当前文件目录
+    # 获取当前工程文件目录
     base_path = os.path.dirname(os.path.abspath(__file__))
     print(base_path)
     # 源目标文件目录

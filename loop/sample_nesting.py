@@ -7,3 +7,13 @@ while j < 4:
         i += 1
     j += 1
     print("")
+
+
+j = 0
+while j < 5:
+    i = 0
+    while i < 5:
+        print("口", end="")
+        i += 1
+    j += 1
+    print("")

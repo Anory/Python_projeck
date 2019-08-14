@@ -2,9 +2,14 @@
 
 
 # 1、列表传参
-def add(a, b, c):
-    num = a + b + c
+def add(*args):
+    num = sum(args)
     print(num)
+
+# 列表传参(2)
+# def add(a, b, c):
+#     num = a + b + c
+#     print(num)
 
 
 list1 = [1, 2, 3]
@@ -12,8 +17,8 @@ add(*list1)
 
 
 # 2、字典传参
-def add2(a, b, c):
-    num = a + b + c
+def add2(**kwargs):
+    num = sum(kwargs.values())
     print(num)
 
 
@@ -37,7 +42,6 @@ def get_detail_info():
     return info_dict
 
 
-print(get_detail_info())
 info = get_detail_info()
 name = info.get("employee")[0].get("name")
 print(name)

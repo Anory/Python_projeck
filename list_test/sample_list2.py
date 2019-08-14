@@ -29,3 +29,5 @@ while i < len(name_list):
     if n == "王五":
         print(n, i, ri)
     i += 1
+
+

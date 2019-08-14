@@ -11,3 +11,7 @@ print(isexist)
 str1 = "This is string example"
 str2 = str1.replace("is", "was")
 print(str2)
+
+str3 = "13265556550"
+s = str3.replace(str3[4], "*")
+print(s)
